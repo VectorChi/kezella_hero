@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+body {
+  overflow-x: hidden;
+}
+.top-section {
+  background-color: #0a0721;
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fefefe;
+}
+nav,
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding: 2rem 0;
+}
+ul {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  gap: 1.5rem;
+}
+li {
+  font-size: 0.8rem;
+  color: #fefefe;
+  font-weight: 400;
+}
+.nav-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+.right-nav {
+  gap: 1.5rem;
+}
+.nav-sec-button,
+.nav-pry-button {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.4rem 1.2rem;
+}
+
+.nav-pry-button {
+  background-color: #3971f6;
+  color: #fefefe;
+  border: none;
+  border-radius: 0.2rem;
+}
+.nav-sec-button {
+  background-color: #0a0721;
+  color: #fefefe;
+  border: 1px solid #fefefe;
+  border-radius: 0.2rem;
+}
+
+/* Hero section */
+.hero {
+  /* position: relative; */
+  display: flex;
+  align-items: flex-start;
+  width: 85%;
+  height: 80vh;
+  margin: auto;
+  overflow: auto;
+  align-items: center;
+}
+.left-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 35%;
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+  color: #fefefe;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 109.8%;
+}
+.hero-copy p {
+  color: #c8c7d1;
+  font-weight: 300;
+  line-height: 144.8%;
+  letter-spacing: -0.03em;
+}
+.hero-cta {
+  display: flex;
+  gap: 1.5rem;
+}
+.hero-pry-cta {
+  background-color: #3971f6;
+  color: #fefefe;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.7rem 1.2rem;
+}
+.hero-ter-button {
+  color: #fefefe;
+  background-color: #0a0721;
+  border: none;
+}
+
+.hero-image {
+  width: 65%;
+  position: absolute;
+  right: -15rem;
+  bottom: 0;
+  filter: drop-shadow(-14px 16px 31px rgba(0, 0, 0, 0.1));
+}
+
+.hero-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* next section */
+.stat-container {
+  background-color: #eef9ff;
+}
+.stats {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 10rem 0;
+}
+
+.stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.feather {
+  height: 16px;
+  width: 16px;
+  padding-right: 0.6rem;
+  margin: -0.2rem;
+}
